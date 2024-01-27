@@ -1,0 +1,38 @@
+a.nav-link.active {
+    border-radius: 5px;
+    background-color: rgb(223, 181, 181);
+    translate: all 0.3s;
+    font-weight: bold;
+}
+
+a.nav-link {
+    border-radius: 5px;
+    translate: all 0.3s;
+}
+
+a.nav-link:hover:not(.active) {
+    background-color: rgb(236, 199, 199);
+}
+
+a.nav-link {
+    font-weight: bold;
+}
+
+.navbar-brand{
+    padding-left: 1rem;
+    display: flex;
+}
+
+.navbar-brand p{
+    margin:auto 0;
+    padding-left: 10px;
+}
+
+.navbar-brand img {
+    transition: all 0.2s;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1, 1.1);
+}
+

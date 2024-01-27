@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- kasus -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style_index.css">
+    <link rel="stylesheet" href="./assets/css/kasus.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #b2bec3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/main_logo.png" alt="Pinjaman Online" width="50" class="d-inline-block align-text-top">
+                <p>Edukasi Pinjol Illegal</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-3 my-2">
+                        <a class="nav-link px-2" aria-current="page" href="index.html">Pinjol Illegal</a>
+                    </li>
+                    <li class="nav-item mx-3 my-2">
+                        <a class="nav-link px-2 active" href="kasus.html">Kasus</a>
+                    </li>
+                    <li class="nav-item mx-3 my-2">
+                        <a class="nav-link px-2" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item mx-3 my-2">
+                        <a class="nav-link px-2" aria-current="page" href="credit.html">Credit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- sidebar or subNavbar -->
+        <div class="sidebar pe-3 ps-0">
+            <button onclick="changeContent(0, this)" type="button" class="daftar-isi btn btn-warning mt-4">Pinjam Uang Online Berujung Maut</button>
+            <button onclick="changeContent(1, this)" type="button" class="daftar-isi btn btn-warning mt-4">Modal Data Pribadi, Korban Terjerat Teror Abadi</button>
+            <button onclick="changeContent(2, this)" type="button" class="daftar-isi btn btn-warning mt-4">Pinjol buat nonton konser</button>
+            <button onclick="changeContent(3, this)" type="button" class="daftar-isi btn btn-warning mt-4">Pinjol buat trading kripto sampai ada nyawa melayang</button>
+            <button onclick="changeContent(4, this)" type="button" class="daftar-isi btn btn-warning mt-4">Utang Dibayar Nggak Lunas-lunas</button>
+        </div>
+
+        <div class="content p-3" id="pinjol-content">
+            <h1>Klik Tombol Sebelah Kiri Untuk Melihat Isi Menu</h1>
+        </div>
+    </main>
+
+    <audio id="click-audio" src="./assets/audio/click.wav"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script_kasus.js"></script>
+</body>
+</html>

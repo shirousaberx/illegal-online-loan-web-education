@@ -1,0 +1,48 @@
+body {
+    background: url('../images/main_logo.png') no-repeat center center/cover;
+}
+
+#quiz, #score {
+    width: 65%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    min-height: 65%;
+}
+
+#overlay {
+    padding-bottom: 8%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.invisible {
+    opacity: 0;
+}
+
+#gambar-soal {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#nomor-pertanyaan {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#tombol-jawaban button, #berikutnya {
+    transition: all 0.3s ease-in-out;
+}
+
+#tombol-jawaban button:hover, #berikutnya:hover {
+    transform: scale(1.25, 1.25);
+}
+
+#alasan {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.pill {
+    font-size: 2em;
+    border-radius: 50%;
+    color: green;
+    line-height: 3em;
+}
